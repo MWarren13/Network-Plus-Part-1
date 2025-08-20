@@ -45,7 +45,7 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 - Visually inspect network connections  
 
 **Screenshot Placeholder:**  
-`!Network Topology`
+`![Ping](Module 2\Physical Labs\Basic Switch SS\Success Ping.JPG)`
 
 ---
 
@@ -55,7 +55,7 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 - Verify PC settings and connectivity  
 
 **Screenshot Placeholder:**  
-`!PC IP Configuration`
+`![Configs](Module 2\Physical Labs\Basic Switch SS\Config 2 Hosts A-B.JPG)`
 
 ---
 
@@ -93,7 +93,7 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 
 - From a switch, ping PC-A and PC-B  
   _Were the pings successful?_  
-  _Answer:_  
+  _Answer: Yes_  
 
 ---
 
@@ -103,4 +103,4 @@ You will apply IP addressing to the PCs and switches to enable communication bet
    _Answer:_  
 
 2. **What could prevent a ping from being sent between the PCs?**  
-   _Answer:_  
+   _Answer: If there is a wrong configuration or an incorrect number/address._  
