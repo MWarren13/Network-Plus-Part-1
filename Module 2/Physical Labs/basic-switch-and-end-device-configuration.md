@@ -100,7 +100,7 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 ## Reflection Questions
 
 1. **Why are some FastEthernet ports on the switches up and others down?**  
-   _Answer:_  
+   _Answer: Some have an active device connected with a working cable that allows for communication._  
 
 2. **What could prevent a ping from being sent between the PCs?**  
    _Answer: If there is a wrong configuration or an incorrect number/address._  
