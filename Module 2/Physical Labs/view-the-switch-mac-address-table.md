@@ -22,15 +22,14 @@
 
 ### Step 1: Cable the network according to the topology
 
-**Screenshot Placeholder:**  
-`!Network Topology`
+
 
 ---
 
 ### Step 2: Configure PC hosts
 
 **Screenshot Placeholder:**  
-`![PC Configuration](path/to/sStep 3: Initialize and reload switches as necessary
+`![PC Configuration](Module 2\Physical Labs\Switch MAC Addy Table\A-B Top.JPG)
 
 **Screenshot Placeholder:**  
 `!Switch Initialization`
@@ -51,28 +50,28 @@
 ### Step 1: Record network device MAC addresses
 
 1. **PC-A MAC Address:**  
-   _Answer:_  
+   _Answer: 00-E0-4C-68-07-86_  
 
 2. **PC-B MAC Address:**  
-   _Answer:_  
+   _Answer: 00-E0-4C-68-0B-CD_  
 
 3. **S1 Fast Ethernet 0/1 MAC Address:**  
-   _Answer:_  
+   _Answer: dc05.39ac.ae01_  
 
 4. **S2 Fast Ethernet 0/1 MAC Address:**  
-   _Answer:_  
+   _Answer: dc05.39ac.ae05_  
 
 ---
 
 ### Step 2: Display the switch MAC address table
 
 1. **Are there any MAC addresses recorded in the MAC address table?**  
-   _Answer:_  
+   _Answer: The addresses are fixed._  
 
 2. **What MAC addresses are recorded in the table? To which switch ports are they mapped and to which devices do they belong?**  
-   _Answer:_  
+   _Answer: The belong to the ports on the switch._  
 
-3. **If you had not previously recorded MAC addresses of network devices in Step 1, how could you tell which devices the MAC addresses belong to using only the output from `show mac address-table`? Does it work in all scenarios?**  
+3. **If you had not previously recorded MAC addresses of network devices in Step 1, how could you tell which devices the MAC addresses belong to using only the output from `![Table](Module 2\Physical Labs\Switch MAC Addy Table\MAC Addy Table.JPG)`? Does it work in all scenarios?**  
    _Answer:_  
 
 ---
@@ -80,22 +79,22 @@
 ### Step 3: Clear the S2 MAC address table and display the MAC address table again
 
 1. **Does the MAC address table have any addresses in it for VLAN 1? Are there other MAC addresses listed?**  
-   _Answer:_  
+   _Answer: Yes_  
 
 2. **Wait 10 seconds and recheck. Are there new addresses in the MAC address table?**  
-   _Answer:_  
+   _Answer: No, there were not._  
 
 ---
 
 ### Step 4: From PC-B, ping the devices on the network and observe the switch MAC address table
 1. **How many device IP-to-MAC address pairs have been learned by ARP (excluding multicast/broadcast)?**  
-   _Answer:_  
+   _Answer: 24_  
 
 2. **Did all devices have successful replies to pings? If not, check cabling and IP configurations.**  
-   _Answer:_  
+   _Answer: Yes, pings were successful_  
 
 3. **Has the switch added additional MAC addresses to the MAC address table? If so, which addresses and devices?**  
-   _Answer:_  
+   _Answer: No, it did not._  
 
 4. **Does the PC-B ARP cache have additional entries for all network devices that were sent pings?**  
    _Answer:_  
@@ -105,4 +104,4 @@
 ## Reflection Question
 
 **What might be some of the challenges on larger networks when switches and PCs dynamically build ARP caches and MAC address tables?**  
-_Answer:_  
+_Answer: It can increase broadcast traffic from ARP requests, higher resource utilization for devices and switches, scalability limitations due to table size, longer convergence times for network updates, potential security risks like ARP spoofing, and greater overall management complexity. _  
