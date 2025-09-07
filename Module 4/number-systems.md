@@ -87,5 +87,6 @@ Convert the following hexadecimal numbers to binary:
 Convert the IPv4 address `172.16.254.1` to binary.
 
 ### Exercise 6: MAC Address Binary Conversion
-Convert the MAC address `DE:AD:BE:EF:00:01` to binary.
+Convert the MAC address `DE:AD:BE:EF:00:01` to binary. 
+110111101010110110111110111011110000000000000001
 
