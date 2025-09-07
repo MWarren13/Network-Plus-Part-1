@@ -61,15 +61,15 @@ Binary: 00000000 00011010 00101011 00111100 01001101 01011110
 
 ### Exercise 1: Binary to Decimal
 Convert the following binary numbers to decimal:
-1. `1010`
-2. `11110000`
-3. `00001111`
+1. `1010` 10
+2. `11110000` 240
+3. `00001111` 15
 
 ### Exercise 2: Decimal to Binary
 Convert the following decimal numbers to binary:
-1. `25`
-2. `192`
-3. `255`
+1. `25` 00011001
+2. `192` 11000000
+3. `255` 11111111
 
 ### Exercise 3: Binary to Hexadecimal
 Convert the following binary numbers to hexadecimal:
@@ -85,6 +85,7 @@ Convert the following hexadecimal numbers to binary:
 
 ### Exercise 5: IPv4 Binary Conversion
 Convert the IPv4 address `172.16.254.1` to binary.
+10101100.00010000.11111110.00000001
 
 ### Exercise 6: MAC Address Binary Conversion
 Convert the MAC address `DE:AD:BE:EF:00:01` to binary. 
