@@ -73,15 +73,15 @@ Convert the following decimal numbers to binary:
 
 ### Exercise 3: Binary to Hexadecimal
 Convert the following binary numbers to hexadecimal:
-1. `11010111`
-2. `10101010`
-3. `11111111`
+1. `11010111` D7
+2. `10101010` AA
+3. `11111111` FF
 
 ### Exercise 4: Hexadecimal to Binary
 Convert the following hexadecimal numbers to binary:
-1. `1F`
-2. `A3`
-3. `FF`
+1. `1F` 00011111
+2. `A3` 10100011
+3. `FF` 11111111
 
 ### Exercise 5: IPv4 Binary Conversion
 Convert the IPv4 address `172.16.254.1` to binary.
