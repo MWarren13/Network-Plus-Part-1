@@ -59,7 +59,7 @@
 
 - Refer to the Addressing Table for IP configuration  
 **Screenshot Placeholder:**  
-`!PC IP Configuration`
+`![AB Config](Module 7\Physical Labs\Module 7\A-B Config.JPG)`
 
 ---
 
@@ -95,14 +95,15 @@
 ### Step 2: Verify connectivity
 
 - **Can PC-A ping S1 VLAN 20?**  
-  _Answer:_  
+  _Answer: I did not get any successful pings from PC to switch. I am not sure of the reason why not but it did not work._  
 
 - **Were the pings from PC-B to S2 successful? Explain.**  
-  _Answer:_  
+  _Answer: No pings were successful._  
 
 ---
 
 ## Reflection
 
 **Why is trunking important for VLAN communication across switches? What issues might arise if trunking is misconfigured?**  
-_Answer:_  
+_Answer: It allows a single physical link to carry traffic for multiple VLANs. This reduced cabling and cost, and enabling the extension of VLANs across network switches. Misconfigurations, such as VLAN mismatches or incorrect tagging, can cause VLAN hopping attacks, data loss, unauthorized access, and network performance issues like dropped calls or slow speeds.  
+_  
