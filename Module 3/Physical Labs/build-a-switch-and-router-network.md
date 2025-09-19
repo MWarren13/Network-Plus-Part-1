@@ -66,14 +66,14 @@
 ### Step 4: Configure R1, ISP, and S1 using provided initial configurations
 
 **Screenshot Placeholder:**  
-`!Device Configuration`
+`![Router](Module 3\Physical Labs\Build Switch and Router\Router Config.JPG)`
 
 ---
 
 ### Step 5: Configure IP host table on R1
 
 **Screenshot Placeholder:**  
-`!Host Table Configuration`
+`![IP](Module 3\Physical Labs\Build Switch and Router\IP Route.JPG)`
 
 ---
 
@@ -153,16 +153,16 @@
 ## Reflection Questions
 
 1. What could prevent ping or traceroute responses besides connectivity issues?  
-   _Answer:_  
+   _Answer: Using firewalls_  
 
 2. What does the ping response to a non-existent address like 209.165.200.227 indicate?  
-   _Answer:_  
+   _Answer: The packet sent from your device couldn't find a host to reply to._  
 
 3. What does the ping response to an unreachable network like 192.168.5.3 indicate?  
-   _Answer:_  
+   _Answer: A router was unable to find a path to the destination._  
 
 4. What is the default IPv4 TTL on Windows and Cisco devices?  
-   _Answer:_  
+   _Answer: Windows devices is 128, Cisco devices is 255_  
 
 5. What is the default IPv6 Hop Limit on Windows and Cisco devices?  
-   _Answer:_  
+   _Answer: 64 on Cisco devices and 128 on Windows operating systems_  
