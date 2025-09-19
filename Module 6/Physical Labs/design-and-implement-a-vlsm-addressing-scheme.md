@@ -30,7 +30,7 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 ### Step 1: Determine Available Hosts and Subnets
 
 - How many host addresses are available in a /25 network?  
-  _Answer:_  
+  _Answer: 126 usable addresses_  
 - What is the total number of host addresses needed in the topology?  
   _Answer:_  
 - How many subnets are needed in the network topology?  
