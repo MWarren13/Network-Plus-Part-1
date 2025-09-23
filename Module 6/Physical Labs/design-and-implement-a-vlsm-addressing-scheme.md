@@ -118,12 +118,12 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 
 | Subnet Description   | Hosts Needed | Network Address /CIDR | First Host Address | Broadcast Address |
 |----------------------|--------------|------------------------|--------------------|-------------------|
-| BR1 LAN              | 40           |                        |                    |                   |
-| BR2 LAN              | 25           |                        |                    |                   |
-| BR2 IoT LAN          | 5            |                        |                    |                   |
-| BR2 CCTV LAN         | 4            |                        |                    |                   |
-| BR2 HVAC C2 LAN      | 4            |                        |                    |                   |
-| BR1-BR2 Link         | 2            |                        |                    |                   |
+| BR1 LAN              | 40           |  192.168.33.128/26     |  192.168.33.129    |  192.168.33.191   |
+| BR2 LAN              | 25           |  192.168.33.192/27     |  192.168.33.193    |  192.168.33.223                 |
+| BR2 IoT LAN          | 5            |  192.168.33.224/29     |  192.168.33.224    |  192.168.33.231                 |
+| BR2 CCTV LAN         | 4            |  192.168.33.232/29     |  192.168.33.233    |  192.168.33.239                 |
+| BR2 HVAC C2 LAN      | 4            |  192.168.33.240/29     |  192.168.33.241    |  192.168.33.247                 |
+| BR1-BR2 Link         | 2            |  192.168.33.248/30     |  192.168.33.249    |  192.168.33.251                 |
 
 ---
 
@@ -176,7 +176,7 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 ## Reflection Question
 
 **Can you think of a shortcut for calculating the network addresses of consecutive /30 subnets?**  
-_Answer:_  
+_Answer: Using the magic-number increment method. Take the subnet mask’s last octet and do 256 − mask_octet to get the block size._  
 
 ---
 
