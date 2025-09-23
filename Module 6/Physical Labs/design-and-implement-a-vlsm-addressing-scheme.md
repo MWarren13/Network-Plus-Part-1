@@ -32,26 +32,26 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 - How many host addresses are available in a /25 network?  
   _Answer: 126 usable addresses_  
 - What is the total number of host addresses needed in the topology?  
-  _Answer:_  
+  _Answer: 97_  
 - How many subnets are needed in the network topology?  
-  _Answer:_  
+  _Answer: 5_  
 
 ---
 
 ### Step 2: Determine the Largest Subnet
 
 - Subnet description:  
-  _Answer:_  
+  _Answer: IT_  
 - Number of IP addresses required:  
-  _Answer:_  
+  _Answer: 50_  
 - Subnet mask needed:  
-  _Answer:_  
+  _Answer: 64_  
 - Total host addresses supported:  
-  _Answer:_  
+  _Answer: 62_  
 - Can the `/25` network support this subnet?  
-  _Answer:_  
+  _Answer: Yes_  
 - Resulting network addresses:  
-  _Answer:_  
+  _Answer: 192.168.33.128_  
 - Use the first network address for this subnet.
 
 ---
@@ -59,17 +59,17 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 ### Step 3: Determine the Second Largest Subnet
 
 - Subnet description:  
-  _Answer:_  
+  _Answer: Finance_  
 - Number of IP addresses required:  
-  _Answer:_  
+  _Answer: 25_  
 - Subnet mask needed:  
-  _Answer:_  
+  _Answer: 32_  
 - Total host addresses supported:  
-  _Answer:_  
+  _Answer: 30_  
 - Can the remaining subnet support this?  
-  _Answer:_  
+  _Answer: Yes_  
 - Resulting network addresses:  
-  _Answer:_  
+  _Answer: 192.168.33.192_  
 - Use the first network address for this subnet.
 
 ---
@@ -77,17 +77,17 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 ### Step 4: Determine the Third Largest Subnet
 
 - Subnet description:  
-  _Answer:_  
+  _Answer: Marketing_  
 - Number of IP addresses required:  
-  _Answer:_  
+  _Answer: 14_  
 - Subnet mask needed:  
-  _Answer:_  
+  _Answer: 16_  
 - Total host addresses supported:  
-  _Answer:_  
+  _Answer: 14_  
 - Can the remaining subnet support this?  
-  _Answer:_  
+  _Answer: Yes_  
 - Resulting network addresses:  
-  _Answer:_  
+  _Answer: 192.168.33.224_  
 - Use the first address for this subnet  
 - Use second for CCTV LAN  
 - Use third for HVAC C2 LAN
@@ -97,17 +97,17 @@ Variable Length Subnet Masking (VLSM) allows subnetting a network multiple times
 ### Step 5: Determine the Fourth Largest Subnet
 
 - Subnet description:  
-  _Answer:_  
+  _Answer: HR_  
 - Number of IP addresses required:  
-  _Answer:_  
+  _Answer: 6_  
 - Subnet mask needed:  
-  _Answer:_  
+  _Answer: 8_  
 - Total host addresses supported:  
-  _Answer:_  
+  _Answer: 6_  
 - Can the remaining subnet support this?  
-  _Answer:_  
+  _Answer: Yes_  
 - Resulting network addresses:  
-  _Answer:_  
+  _Answer: 192.168.33.240_  
 - Use the first network address for this subnet.
 
 ---
