@@ -31,16 +31,16 @@ With IPv4 address space depletion and the transition to IPv6, networking profess
 - d. Unique-local address  
 - e. Multicast address  
 
-| IPv6 Address                          | Answer |
+| IPv6 Address                         | Answer |
 |--------------------------------------|--------|
-| 2001:0db8:1:acad::fe55:6789:b210     |        |
-| ::1                                  |        |
-| fc00:22:a:2::cd4:23e4:76fa           |        |
-| 2033:db8:1:1:22:a33d:259a:21fe       |        |
-| fe80::3201:cc01:65b1                 |        |
-| ff00::                               |        |
-| ff00::db7:4322:a231:67c              |        |
-| ff02::2                              |        |
+| 2001:0db8:1:acad::fe55:6789:b210     |    B    |
+| ::1                                  |    A    |
+| fc00:22:a:2::cd4:23e4:76fa           |    D    |
+| 2033:db8:1:1:22:a33d:259a:21fe       |    B    |
+| fe80::3201:cc01:65b1                 |    C    |
+| ff00::                               |    E    |
+| ff00::db7:4322:a231:67c              |    E    |
+| ff02::2                              |    E    |
 
 ---
 
