@@ -49,20 +49,20 @@ With IPv4 address space depletion and the transition to IPv6, networking profess
 Use IPv6 abbreviation rules to compress or decompress the following:
 
 1. **2002:0ec0:0200:0001:0000:04eb:44ce:08a2**  
-   _Compressed: 2002:ec0:200:1:0:4eb:44ce:8a2_  
-   _Decompressed: 2002:0ec0:0200:0001:0000:04bb:44ce:08a2_  
+   _Compressed:_  
+   _Decompressed:_  
 
 2. **fe80:0000:0000:0001:0000:60bb:008e:7402**  
-   _Compressed: fe80::1:0:6bb0:8e:7402_  
-   _Decompressed: fe80:0000:0000:0001:0000:6bb0:008e:7402_  
+   _Compressed:_  
+   _Decompressed:_  
 
 3. **fe80::7042:b3d7:3dec:84b8**  
-   _Compressed: fe80::7042:3bd7:3dec:84b8_  
-   _Decompressed: fe80:0000:0000:0000:7042:3bd7:3dec:84b8_  
+   _Compressed:_  
+   _Decompressed:_  
 
 4. **ff00::**  
-   _Compressed: fff0::_  
-   _Decompressed: fff0:0000:0000:0000:0000:0000:0000:0000_  
+   _Compressed:_  
+   _Decompressed:_  
 
 5. **2001:0030:0001:acad:0000:330e:10c2:32bf**  
    _Compressed: 2001:30:1:acad:0:330e:10c2:32bf_  
