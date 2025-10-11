@@ -64,7 +64,7 @@
 4. Ensure SVIs are up and active  
 
 **Screenshot Placeholder:**  
-`!SVI Configuration`
+`![Vlan Table](Module 8\Physical Labs\S1 Vlan Table.JPG)(Module 8\Physical Labs\S2 Vlan Table.JPG)`
 
 ---
 
